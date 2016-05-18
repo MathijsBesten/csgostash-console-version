@@ -1,0 +1,6 @@
+c:\users\mathijs\documents\visual studio 2015\Projects\NoGUI\NoGUI\bin\Debug\NoGUI.exe.config
+c:\users\mathijs\documents\visual studio 2015\Projects\NoGUI\NoGUI\obj\Debug\NoGUI.csprojResolveAssemblyReference.cache
+c:\users\mathijs\documents\visual studio 2015\Projects\NoGUI\NoGUI\bin\Debug\NoGUI.exe
+c:\users\mathijs\documents\visual studio 2015\Projects\NoGUI\NoGUI\bin\Debug\NoGUI.pdb
+c:\users\mathijs\documents\visual studio 2015\Projects\NoGUI\NoGUI\obj\Debug\NoGUI.exe
+c:\users\mathijs\documents\visual studio 2015\Projects\NoGUI\NoGUI\obj\Debug\NoGUI.pdb
