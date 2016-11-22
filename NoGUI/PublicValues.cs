@@ -26,7 +26,7 @@ namespace NoGUI
 
         public static string defaultStartName = "and collection info.\">\n<title>";
         public static string defaultEndName = " - CS:GO Stash</title>";
-        public static string defaultEndPrice = "&euro;</span></a>";
+        public static string defaultEndPrice = "&euro;</span>";
 
         public static string defaultStartSkinInCategorie = "<div class=\"price\">\n\t<p class=\"nomargin\"><a href=\"";
         public static string defaultEndSkinInCategorie = "\" data-toggle=\"tooltip\"";

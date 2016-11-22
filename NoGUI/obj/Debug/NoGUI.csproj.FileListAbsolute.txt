@@ -4,3 +4,9 @@ c:\users\mathijs\documents\visual studio 2015\Projects\NoGUI\NoGUI\bin\Debug\NoG
 c:\users\mathijs\documents\visual studio 2015\Projects\NoGUI\NoGUI\bin\Debug\NoGUI.pdb
 c:\users\mathijs\documents\visual studio 2015\Projects\NoGUI\NoGUI\obj\Debug\NoGUI.exe
 c:\users\mathijs\documents\visual studio 2015\Projects\NoGUI\NoGUI\obj\Debug\NoGUI.pdb
+C:\Users\HP\Source\Repos\csgostash-console-version\NoGUI\bin\Debug\NoGUI.exe.config
+C:\Users\HP\Source\Repos\csgostash-console-version\NoGUI\obj\Debug\NoGUI.exe
+C:\Users\HP\Source\Repos\csgostash-console-version\NoGUI\obj\Debug\NoGUI.pdb
+C:\Users\HP\Source\Repos\csgostash-console-version\NoGUI\bin\Debug\NoGUI.exe
+C:\Users\HP\Source\Repos\csgostash-console-version\NoGUI\bin\Debug\NoGUI.pdb
+C:\Users\HP\Source\Repos\csgostash-console-version\NoGUI\obj\Debug\NoGUI.csprojResolveAssemblyReference.cache
