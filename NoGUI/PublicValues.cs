@@ -38,7 +38,7 @@ namespace NoGUI
         public static List<string> gunCategoriesNames = new List<string> { "Pistols", "Rifles", "SMGs", "Heavy"};
 
         public static List<string> skinURLs =  new List<string>{};
-        public static string priceFile = "D:\\pricelist.txt";
+        public static string priceFile = (Environment.GetFolderPath( Environment.SpecialFolder.MyDocuments)) +"\\pricelist.txt";
 
 
     }

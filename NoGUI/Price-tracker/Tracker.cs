@@ -21,23 +21,28 @@ namespace NoGUI.Price_tracker
                 }
                 decimal price = decimal.Parse(priceString);
                 var dateTimeNow = DateTime.Now;
-                string[] existingLines = File.ReadAllLines(PublicValues.priceFile);
-                TextWriter tw = new StreamWriter(PublicValues.priceFile);
-                if (existingLines[0] == PriceTracker.gunName)
+                if (!File.Exists(PublicValues.priceFile))
                 {
-                    foreach (var line in existingLines)
+                    FileStream fs = File.Create(PublicValues.priceFile);
+                    fs.Close();
+                }
+                List<string> existingLines = File.ReadAllLines(PublicValues.priceFile).ToList();
+                TextWriter tw = new StreamWriter(PublicValues.priceFile);
+                if (existingLines.Count != 0 )
+                {
+                    if (existingLines[0] == PriceTracker.gunName)
                     {
-                        tw.WriteLine(line);
+                        foreach (var line in existingLines)
+                        {
+                            tw.WriteLine(line);
+                        }
                     }
                 }
                 else
                 {
                     tw.WriteLine(PriceTracker.gunName);
                 }
-
-
-
-
+               
                 bool itIsLess = price < PriceTracker.lowestMoney;
                 if (itIsLess == true)
                 {
