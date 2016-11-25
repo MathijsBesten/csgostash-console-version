@@ -14,6 +14,7 @@ namespace NoGUI.Price_tracker
         public static string gunName;
         public static string wear;
         public static decimal lowestMoney;
+        public static bool firstRun = true;
         public static DateTime lowestDateTime;
 
         public static void mainPriceTracker()

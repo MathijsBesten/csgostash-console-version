@@ -44,7 +44,7 @@ namespace NoGUI.Price_tracker
                 }
                
                 bool itIsLess = price < PriceTracker.lowestMoney;
-                if (itIsLess == true)
+                if (itIsLess == true || PriceTracker.firstRun == true)
                 {
                     PriceTracker.lowestMoney = price;
                     PriceTracker.lowestDateTime = dateTimeNow;
@@ -53,6 +53,7 @@ namespace NoGUI.Price_tracker
                     tw.WriteLine("€" + PriceTracker.lowestMoney + " -Lowest Recorded-");
                     tw.WriteLine(PriceTracker.lowestDateTime + " -Lowest Recorded-");
                     tw.Close();
+                    PriceTracker.firstRun = false;
                 }
                 else
                 {
